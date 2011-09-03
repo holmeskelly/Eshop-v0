@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_1.xsd">
+ <description>Eshopf Custom Tags</description>
+ <tlib-version>1.0</tlib-version>
+ <short-name>eshop</short-name>
+ <tag>
+  <display-name>inputEntry</display-name>
+  <name>inputEntry</name>
+  <tag-class>eshop.tags.InputEntryTag</tag-class>
+  <body-content>tagdependent</body-content>
+  <attribute>
+   <name>id</name>
+   <rtexprvalue>true</rtexprvalue>
+  </attribute>
+  <attribute>
+   <name>value</name>
+   <rtexprvalue>false</rtexprvalue>
+   <deferred-value>
+    <type>java.lang.Object</type>
+   </deferred-value>
+  </attribute>
+  <attribute>
+   <name>required</name>
+   <rtexprvalue>false</rtexprvalue>
+   <deferred-value>
+    <type>boolean</type>
+   </deferred-value>
+  </attribute>
+  <attribute>
+   <name>label</name>
+   <rtexprvalue>false</rtexprvalue>
+   <deferred-value>
+    <type>java.lang.String</type>
+   </deferred-value>
+  </attribute>
+  <attribute>
+   <name>errorStyleClass</name>
+   <rtexprvalue>false</rtexprvalue>
+   <deferred-value>
+    <type>java.lang.String</type>
+   </deferred-value>
+  </attribute>
+  <attribute>
+   <name>requiredMessage</name>
+   <rtexprvalue>false</rtexprvalue>
+   <deferred-value>
+    <type>java.lang.String</type>
+   </deferred-value>
+  </attribute>
+ </tag>
+</taglib>

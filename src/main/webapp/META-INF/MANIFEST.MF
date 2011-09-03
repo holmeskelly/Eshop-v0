@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Class-Path: aopalliance-1.0.jar aspectjrt-1.6.8.jar aspectjweaver-1.6.
+ 8.jar commons-codec-1.4.jar commons-collections-3.1.jar commons-dbcp-
+ 1.4.jar commons-lang-2.1.jar commons-logging-1.1.1.jar commons-pool-1
+ .5.5.jar dom4j-1.6.1.jar ehcache-core-2.1.0.jar ehcache-spring-annota
+ tions-1.1.2.jar el-ri-1.0.jar jaxen-1.1.1.jar jdom-1.0.jar jsf-api-1.
+ 2_03.jar jsf-impl-1.2_03.jar jstl-1.2.jar log4j-1.2.14.jar mysql-conn
+ ector-java-5.1.2.jar oro-2.0.8.jar slf4j-api-1.6.1.jar spring-aop-3.0
+ .5.RELEASE.jar spring-asm-3.0.5.RELEASE.jar spring-beans-3.0.5.RELEAS
+ E.jar spring-context-3.0.5.RELEASE.jar spring-context-support-3.0.5.R
+ ELEASE.jar spring-core-3.0.5.RELEASE.jar spring-expression-3.0.5.RELE
+ ASE.jar spring-jdbc-3.0.5.RELEASE.jar spring-orm-3.0.5.RELEASE.jar sp
+ ring-security-acl-3.0.5.RELEASE.jar spring-security-config-3.0.5.RELE
+ ASE.jar spring-security-core-3.0.5.RELEASE.jar spring-security-taglib
+ s-3.0.5.RELEASE.jar spring-security-web-3.0.5.RELEASE.jar spring-tx-3
+ .0.5.RELEASE.jar spring-web-3.0.5.RELEASE.jar spring-webmvc-3.0.5.REL
+ EASE.jar standard-1.1.2.jar velocity-1.5.jar xercesImpl-2.9.1.jar xml
+ -apis-1.3.02.jar
+
