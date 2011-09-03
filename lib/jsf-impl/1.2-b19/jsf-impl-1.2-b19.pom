@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javax.faces</groupId>
+  <artifactId>jsf-impl</artifactId>
+  <name>JSF Implementation</name>
+  <version>1.2-b19</version>
+  <description>This is Sun Microsystems's JSF implementation.  It is product quality.</description>
+  <url>https://javaserverfaces.dev.java.net/</url>
+  <issueManagement>
+    <url>https://javaserverfaces.dev.java.net/servlets/ProjectIssues</url>
+  </issueManagement>
+  <ciManagement>
+    <notifiers>
+      <notifier>
+        <configuration>
+          <address>javaserverfowner@javaserverfaces.dev.java.net</address>
+        </configuration>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+  <inceptionYear>2005</inceptionYear>
+  <mailingLists>
+    <mailingList>
+      <name>Developer Mailing List</name>
+      <subscribe>dev@javaserverfaces.dev.java.net</subscribe>
+      <unsubscribe>dev@javaserverfaces.dev.java.net</unsubscribe>
+      <archive></archive>
+    </mailingList>
+  </mailingLists>
+  <developers>
+    <developer>
+      <id>edburns</id>
+      <name>Edward Burns</name>
+      <email>ed.burns@sun.com</email>
+      <organization>Sun Microsystems Inc.</organization>
+      <roles>
+        <role>Specification Lead</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>rlubke</id>
+      <name>Ryan Lubke</name>
+      <email>Ryan.Lubke@sun.com</email>
+      <organization>Sun Microsystems Inc.</organization>
+      <roles>
+        <role>Implementation Lead</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+    <developer>
+      <id>rkitain</id>
+      <name>Roger Kitain</name>
+      <email>Roger.Kitain@sun.com</email>
+      <organization>Sun Microsystems Inc.</organization>
+      <roles>
+        <role>Implementation Lead</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0</name>
+      <url>http://www.opensource.org/licenses/cddl1.php</url>
+      <comments></comments>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:cvs:pserver:guest@cvs.dev.java.net:/cvs:javaserverfaces-sources</connection>
+    <developerConnection></developerConnection>
+    <url>http://cvs.apache.org/viewcvs/maven-plugins/examples/</url>
+  </scm>
+  <organization>
+    <name>Sun Microsystems Inc</name>
+    <url>https://javaserverfaces.dev.java.net/</url>
+  </organization>
+  <build />
+  <distributionManagement>
+    <repository>
+      <id>default</id>
+      <name>Default Repository</name>
+      <url>file:///servlets/ProjectDocumentList</url>
+    </repository>
+    <site>
+      <id>default</id>
+      <name>Default Site</name>
+      <url>scp://javaserverfaces.dev.java.net//</url>
+    </site>
+    <status>converted</status>
+  </distributionManagement>
+</project>
